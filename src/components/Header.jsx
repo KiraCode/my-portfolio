@@ -4,7 +4,7 @@ import { IoMdDownload } from "react-icons/io";
 
 const Header = () => {
   return (
-    <div className="flex flex-col md:flex-row flex-wrap bg-primary rounded-lg px-8 md:px-10 lg:px-20">
+    <div className="flex flex-col md:flex-row flex-wrap rounded-lg px-8 md:px-10 lg:px-20 ">
       {/* -------left side------- */}
       <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]">
         <p className="text-5xl md:text-6xl lg:text-7xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight">
@@ -12,7 +12,7 @@ const Header = () => {
             TEJAS P
           </span>
           <span className=" text-2xl md:text-3xl lg:text-4xl font-medium text-gray-300">
-            , Fullstack Developer
+            , Software Developer
           </span>
         </p>
         <div className="flex flex-col md:flex-row items-center gap-3 text-white text-base font-normal">
@@ -23,8 +23,11 @@ const Header = () => {
             building scalable, efficient, and user-friendly applications.
           </p>
         </div>
-        <a href=""  className="flex items-center gap-2 bg-white px-6 py-3  rounded-full text-gray-800 text-sm font-semibold m-auto md:m-0 hover:scale-105 transition-all duration-300">
-          DOWNLOAD CV <IoMdDownload className="w-6 mt-1"/>
+        <a
+          href=""
+          className="flex items-center gap-2 px-6 py-3 rounded-full border-2 border-purple-400 text-white text-sm font-semibold m-auto md:m-0 hover:scale-105 transition-all duration-300 hover:border-4 "
+        >
+          DOWNLOAD CV <IoMdDownload className="w-6 mt-1" />
         </a>
       </div>
 
