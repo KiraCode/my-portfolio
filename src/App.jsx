@@ -5,7 +5,6 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Login from "./pages/Login";
 import MyProfile from "./pages/MyProfile";
-import WebStackAcademy from "./pages/WebStackAcademy";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 

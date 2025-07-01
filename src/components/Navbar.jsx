@@ -1,8 +1,9 @@
 import React from "react";
 import { assets } from "../assets/asset.js";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400">
       <div className="flex items-center gap-5 cursor-pointer">
@@ -33,8 +34,11 @@ const Navbar = () => {
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
       </ul>
-      <div>
-        <button className="bg-primary text-white px-8 py-3 font-semibold rounded-full hidden md:block">
+      <div className="flex items-center gap-4">
+        <button
+          onClick={() => navigate("/contact")}
+          className="bg-primary text-white px-8 py-3 font-semibold rounded-full hidden md:block"
+        >
           CONNECT WITH ME
         </button>
       </div>
