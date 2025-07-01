@@ -1,5 +1,5 @@
 import React from "react";
-import { logo } from "../assets/asset.js";
+import { assets } from "../assets/asset.js";
 import { NavLink, useNavigate } from "react-router-dom";
 import { CiMail } from "react-icons/ci";
 
@@ -12,11 +12,11 @@ const Navbar = () => {
         className="flex items-center gap-5 cursor-pointer"
       >
         <img
-          className="w-20 h-20 spin-slow drop-shadow-lg brightness-200"
-          src={logo.portfolioLogo}
+          className="w-20 h-20 spin-slow drop-shadow-lg brightness-200 rounded-full"
+          src={assets.portfolioLogo}
           alt=""
         />
-        <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#B3B3B3] via-[#B3B3B3] to-[#1A1A1A] uppercase tracking-wider font-orbitron">
+        <h1 className="text-4xl sm:text-5xl font-bold text-black bg-clip-text uppercase tracking-wider font-orbitron">
           Tejas
         </h1>
       </div>
