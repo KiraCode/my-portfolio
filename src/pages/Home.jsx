@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "../components/Header";
-import Technology from '../components/Technology'
+import Skills from '../components/Skills'
 import Experience from "../components/Experience";
 
 const Home = () => {
   return (
     <div>
       <Header />
-      <Technology/>
+      <Skills/>
       <Experience/>
     </div>
   );

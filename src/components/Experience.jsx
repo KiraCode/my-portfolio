@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-10 lg:px-20"
+      className=" flex flex-col md:flex-row items-center justify-center px-6 md:px-10 lg:px-20"
     >
       {/* ——— left (illustration) ——— */}
       <div className="hidden md:flex w-1/3 lg:w-2/5 justify-center">
@@ -18,7 +18,7 @@ const Experience = () => {
       </div>
 
       {/* ——— right (description) ——— */}
-      <div className="w-full md:w-2/3 lg:w-3/5 flex flex-col gap-6 py-10 md:py-[10vw]">
+      <div className="w-full md:w-2/3 lg:w-3/5 flex flex-col gap-6 py-6 md:py-10">
         <h1 className="text-center text-5xl md:text-6xl lg:text-7xl font-semibold bg-gradient-to-r from-purple-500 to-gray-300 bg-clip-text text-transparent leading-tight md:leading-tight lg:leading-tight">
           Experience
         </h1>
