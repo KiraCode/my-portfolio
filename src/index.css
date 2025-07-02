@@ -19,9 +19,6 @@
   @apply block;
 }
 
-* {
-  @apply bg-primary;
-}
 .text-outline-white {
   -webkit-text-stroke: 1px #a855f7;
   color: transparent;

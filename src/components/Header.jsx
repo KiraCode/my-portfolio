@@ -6,17 +6,21 @@ const Header = () => {
   return (
     <div className="flex flex-col md:flex-row flex-wrap rounded-lg px-8 md:px-10 lg:px-20 ">
       {/* -------left side------- */}
-      <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]">
-        <p className="text-5xl md:text-6xl lg:text-7xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight">
-          <span className="bg-gradient-to-r from-purple-500 to-gray-300 bg-clip-text text-transparent">
-            TEJAS P
-          </span>
+      <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[5vw] md:mb-[-30px]">
+        <p className="text-5xl md:text-6xl lg:text-7xl text-white font-semibold leading-none md:leading-none lg:leading-none">
           <span className=" text-2xl md:text-3xl lg:text-4xl font-medium text-gray-300">
-            , Software Developer
+            {" "}
+            Hello!!! <br /> I'm
+          </span>
+          <span className="bg-gradient-to-r from-purple-500 to-gray-300 bg-clip-text text-transparent">
+            TEJAS 
+          </span>{" "}
+          <br />
+          <span className=" text-2xl md:text-3xl lg:text-4xl font-medium text-gray-300">
+            A Software Developer.
           </span>
         </p>
         <div className="flex flex-col md:flex-row items-center gap-3 text-white text-base font-normal">
-          {/* <img src={assets.profilePic} alt="" /> */}
           <p>
             Passionate and versatile Full Stack Developer with a strong focus on
             <br className="hidden sm:block" />
@@ -32,7 +36,7 @@ const Header = () => {
       </div>
 
       {/* -------right side------- */}
-      <div className="md:w-1/2 flex justify-center items-center py-6 md:py-10">
+      <div className="md:w-1/2 flex justify-center items-center py-6 md:py-5">
         <img
           className="w-[80%] max-w-sm md:max-w-md h-auto rounded-lg object-cover"
           src={assets.profilePic}
