@@ -1,7 +1,7 @@
 import portfolioLogo from "./logo/portfolio-logo.png";
 import profilePic from "./logo/profile-pic.png";
 import expImgWhite from "./experience/expImgWhite.svg";
-import expImgBlack from "./experience/expblack.svg";
+import expImgBlack from "./experience/expBlack.svg";
 
 // technology - programming logo
 import css from "./technology/css.svg";
