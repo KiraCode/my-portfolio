@@ -1,30 +1,6 @@
-import React, { useEffect, useRef } from "react";
 import { skillsData } from "../assets/asset.js";
 
 function Skills() {
-  const scrollRef = useRef(null);
-
-  // Auto-scroll logic
-  useEffect(() => {
-    const scrollContainer = scrollRef.current;
-    let scrollInterval;
-
-    if (scrollContainer) {
-      scrollInterval = setInterval(() => {
-        scrollContainer.scrollLeft += 1;
-        // Reset to start if reached end
-        if (
-          scrollContainer.scrollLeft + scrollContainer.clientWidth >=
-          scrollContainer.scrollWidth
-        ) {
-          scrollContainer.scrollLeft = 0;
-        }
-      }, 20); // Adjust speed (lower = faster)
-    }
-
-    return () => clearInterval(scrollInterval);
-  }, []);
-
   return (
     <section className="flex flex-col items-center justify-start min-h-[60vh] px-4 sm:px-8 py-10 dark:bg-gray-900">
       {/* Heading */}
@@ -32,16 +8,13 @@ function Skills() {
         Skills
       </h2>
 
-      {/* Scrollable Carousel */}
-      <div
-        ref={scrollRef}
-        className="mt-12 w-full overflow-x-auto whitespace-nowrap scrollbar-hide"
-      >
-        <div className="flex gap-6 sm:gap-8 px-2">
-          {skillsData.map((skill, id) => (
+      {/* Auto-Scrolling Carousel */}
+      <div className="mt-12 w-full overflow-hidden">
+        <div className="scrolling-track flex gap-6 sm:gap-8 w-max px-2">
+          {[...skillsData, ...skillsData].map((skill, id) => (
             <div
               key={id}
-              className="min-w-[140px] sm:min-w-[150px] flex flex-col items-center justify-center bg-gray-200 hover:bg-purple-200 rounded-xl p-6 shadow-md hover:shadow-lg  transition"
+              className="min-w-[140px] sm:min-w-[150px] flex flex-col items-center justify-center bg-gray-200 hover:bg-purple-200 rounded-xl p-6 shadow-md hover:shadow-lg transition"
             >
               <img
                 src={skill.image}
