@@ -19,7 +19,7 @@ const Experience = () => {
 
       {/* ——— right (description) ——— */}
       <div className="w-full md:w-2/3 lg:w-3/5 flex flex-col gap-6 py-6 md:py-10">
-        <h1 className="pb-10 pr-5 text-end text-5xl md:text-6xl lg:text-7xl font-semibold bg-gradient-to-r from-purple-500 to-gray-300 bg-clip-text text-transparent leading-tight md:leading-tight lg:leading-tight">
+        <h1 className="pb-10 pr-5 text-center text-5xl md:text-6xl md:text-end lg:text-7xl font-semibold bg-gradient-to-r from-purple-500 to-gray-300 bg-clip-text text-transparent leading-tight md:leading-tight lg:leading-tight">
           Experience
         </h1>
 
