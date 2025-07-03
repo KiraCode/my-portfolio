@@ -11,15 +11,14 @@ const Header = () => {
         <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[5vw] md:mb-[-30px]">
           <p className="text-5xl md:text-6xl lg:text-7xl text-white font-semibold leading-none md:leading-none lg:leading-none">
             <span className=" text-2xl md:text-3xl lg:text-4xl font-medium text-gray-300">
-              {" "}
-              Hello!!! <br /> I'm
+              I'm{" "}
             </span>
             <span className="bg-gradient-to-r from-purple-500 to-gray-300 bg-clip-text text-transparent">
-              TEJAS
+              TEJAS,
             </span>{" "}
             <br />
             <span className=" text-2xl md:text-3xl lg:text-4xl font-medium text-gray-300">
-              A Software Developer.
+              a Software Developer.
             </span>
           </p>
           <div className="flex flex-col md:flex-row items-center gap-3 text-white text-base font-normal">
