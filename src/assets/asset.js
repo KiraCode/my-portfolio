@@ -14,6 +14,9 @@ import nodejs from "./technology/nodejs.svg";
 import react from "./technology/react.svg";
 import springboot from "./technology/spring-boot.svg";
 import spring from "./technology/spring.svg";
+import git from "./technology/git.svg";
+import tailwind from "./technology/tailwind.svg";
+import postman from "./technology/postman.svg";
 
 export const assets = {
   portfolioLogo,
@@ -92,5 +95,20 @@ export const skillsData = [
     id: 11,
     name: "Mongo DB",
     image: mongodb,
+  },
+  {
+    id: 12,
+    name: "GIT",
+    image: git,
+  },
+  {
+    id: 13,
+    name: "Tailwind",
+    image: tailwind,
+  },
+  {
+    id: 14,
+    name: "Postman",
+    image: postman,
   },
 ];

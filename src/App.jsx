@@ -10,7 +10,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div className="mx-4 px-4 sm:mx[10%] bg-primary">
+    <div className="mx-4 px-2 sm:mx[10%] bg-primary border rounded-xl">
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
