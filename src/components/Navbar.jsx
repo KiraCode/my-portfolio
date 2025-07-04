@@ -54,6 +54,7 @@ const Navbar = () => {
           GITHUB <FaGithub className="w-5 h-5" />
         </button> */}
       </div>
+      
     </div>
   );
 };
