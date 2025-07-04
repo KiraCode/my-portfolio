@@ -1,5 +1,5 @@
 import React from "react";
-import { assets } from "../assets/asset.js";
+import { profile } from "../assets/asset.js";
 import { NavLink, useNavigate } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 
@@ -13,7 +13,7 @@ const Navbar = () => {
       >
         <img
           className="w-20 h-20 spin-slow drop-shadow-lg brightness-200 rounded-full"
-          src={assets.portfolioLogo}
+          src={profile.portfolioLogo}
           alt=""
         />
         {/* <h1 className="text-4xl sm:text-5xl font-bold uppercase tracking-wider font-orbitron  text-transparent bg-clip-text text-outline bg-gradient-to-r from-[#fff] via-[#000] to-[#c084fc] animate-gradient">

@@ -28,7 +28,7 @@ import MusicPlayerLevel1 from "./top-project/music-player-1.png";
 import ImageCarousel1 from "./top-project/image-carousel-1.png";
 import ImageCarousel2 from "./top-project/image-carousel-2.png";
 
-export const assets = {
+export const profile = {
   portfolioLogo,
   profilePic,
 };
@@ -277,60 +277,4 @@ export const topProjects = [
       },
     ],
   },
-  {
-    title: "Calculator",
-    description:
-      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
-    image: Calculator,
-    view: {
-      liveLink: "https://kira-calculator.netlify.app/",
-      gitLink: "https://github.com/KiraCode/calculator-level-2",
-      gitIcon: github,
-      liveIcon: live,
-    },
-    icons: [
-      {
-        name: "Html",
-        src: html,
-      },
-      {
-        name: "Css",
-        src: css,
-      },
-      {
-        name: "Javascript",
-        src: javascript,
-      },
-    ],
-  },
-  {
-    title: "Calculator",
-    description:
-      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
-    image: Calculator,
-    view: {
-      liveLink: "https://kira-calculator.netlify.app/",
-      gitLink: "https://github.com/KiraCode/calculator-level-2",
-      gitIcon: github,
-      liveIcon: live,
-    },
-    icons: [
-      {
-        name: "Html",
-        src: html,
-      },
-      {
-        name: "Css",
-        src: css,
-      },
-      {
-        name: "Javascript",
-        src: javascript,
-      },
-    ],
-  },
 ];
-
-
-
-

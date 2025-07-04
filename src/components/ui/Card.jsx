@@ -15,7 +15,7 @@ const Card = ({ title, description, image, view, icons }) => {
         className="w-full h-40 sm:h-38 lg:h-46 object-contain object-center rounded"
       />
 
-      <div className="p-4 sm:py-2 flex-1 flex flex-col justify-between bg-white">
+      <div className="p-4 sm:py-2 flex-1 flex flex-col justify-between bg-gray-200">
         {/* Title */}
         <h2 className="text-base sm:text-lg lg:text-xl font-semibold mb-2">
           {title}

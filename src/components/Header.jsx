@@ -1,5 +1,5 @@
 import React from "react";
-import { assets } from "../assets/asset.js";
+import { profile } from "../assets/asset.js";
 import { IoMdDownload } from "react-icons/io";
 import LineUI from "./ui/LineUI.jsx";
 
@@ -41,7 +41,7 @@ const Header = () => {
         <div className="md:w-1/2 flex justify-center items-center py-6 md:py-5">
           <img
             className="w-[80%] max-w-sm md:max-w-md h-auto rounded-lg object-cover"
-            src={assets.profilePic}
+            src={profile.profilePic}
             alt=""
           />
         </div>
