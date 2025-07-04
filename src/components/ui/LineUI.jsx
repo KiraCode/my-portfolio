@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const LineUI = () => {
   return (
-   <div className="w-[85%] mx-auto mt-12 mb-4 flex justify-between items-center h-12">
-      <div className="w-[10px] h-[10px] rounded-full bg-purple-400"></div>
-      <div className="w-[10px] h-[10px] rounded-full bg-purple-400"></div>
-      <div className="w-[95%] h-[5px] rounded-[10px] bg-purple-400"></div>
+    <div className="w-[90%] max-w-5xl mx-auto mt-12 mb-4 flex items-center gap-2 sm:gap-4">
+      <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-purple-400"></div>
+      <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-purple-400"></div>
+      <div className="flex-1 h-1.5 sm:h-2 rounded-full bg-purple-400"></div>
     </div>
-  )
-}
+  );
+};
 
-export default LineUI
+export default LineUI;

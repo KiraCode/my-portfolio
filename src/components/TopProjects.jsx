@@ -2,6 +2,7 @@ import React from "react";
 import { topProjects } from "../assets/asset";
 import Card from "./ui/Card";
 import { useNavigate } from "react-router-dom";
+import LineUI from "./ui/LineUI";
 
 const TopProjects = () => {
   const navigate = useNavigate();
@@ -25,6 +26,7 @@ const TopProjects = () => {
       >
         more
       </button>
+      <LineUI />
     </div>
   );
 };
