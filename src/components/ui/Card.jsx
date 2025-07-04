@@ -8,14 +8,14 @@ const Card = ({ title, description, image, view, icons }) => {
   const preview = description.slice(0, maxChars);
 
   return (
-    <div className="w-full sm:max-w-md lg:max-w-lg bg-primary rounded-2xl shadow-md flex flex-col overflow-hidden transition-all duration-300">
+    <div className="w-full sm:max-w-md lg:max-w-lg bg-primary rounded-t-lg rounded-b-2xl shadow-md flex flex-col overflow-hidden transition-all duration-300">
       <img
         src={image}
         alt={title}
-        className="w-full h-40 sm:h-38 lg:h-46 object-contain object-center rounded"
+        className="w-full h-40 sm:h-38 lg:h-46 object-cover object-center rounded"
       />
 
-      <div className="p-4 sm:py-2 flex-1 flex flex-col justify-between bg-gray-200">
+      <div className="pt-0 px-2 pb-2 sm:px-2 sm:pb-2 sm:pt-0 flex-1 flex flex-col justify-between bg-gray-200">
         {/* Title */}
         <h2 className="text-base sm:text-lg lg:text-xl font-semibold mb-2">
           {title}
