@@ -278,3 +278,5 @@ export const topProjects = [
     ],
   },
 ];
+
+export const projects = [{}]
