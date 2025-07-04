@@ -16,9 +16,10 @@ const Navbar = () => {
           src={assets.portfolioLogo}
           alt=""
         />
-        <h1 className="text-4xl sm:text-5xl font-bold uppercase tracking-wider font-orbitron  text-transparent bg-clip-text text-outline bg-gradient-to-r from-[#fff] via-[#000] to-[#c084fc] animate-gradient">
+        {/* <h1 className="text-4xl sm:text-5xl font-bold uppercase tracking-wider font-orbitron  text-transparent bg-clip-text text-outline bg-gradient-to-r from-[#fff] via-[#000] to-[#c084fc] animate-gradient">
           Tejas
-        </h1>
+        </h1> */}
+        <h1 className="text-4xl sm:text-5xl font-bold uppercase font-mono text-gray-200">Tejas</h1>
       </div>
       <ul className="hidden md:flex items-start gap-10 font-medium">
         <NavLink to="/">
