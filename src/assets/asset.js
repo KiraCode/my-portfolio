@@ -329,19 +329,40 @@ export const projects = [
   },
 
   // HTML - css Assignments
+  {
+    title: "",
+    category: "HTML-CSS-Assignments",
+    description: "",
+    image: "",
+    view: {
+      liveLink: "https://assignments-html-css-wsa.netlify.app/",
+      gitLink: "",
+      gitIcon: "",
+      liveIcon: "",
+    },
+    icons: [
+      {
+        name: "Html",
+        src: html,
+      },
+      {
+        name: "Css",
+        src: css,
+      },
+    ],
+  },
 
   // Javascript Assignments
   {
-    title: "Calculator",
+    title: "",
     category: "Javascript-Assignments",
-    description:
-      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
-    image: Calculator,
+    description: "",
+    image: "",
     view: {
       liveLink: "https://assignments-javascript-wsa.netlify.app/",
-      gitLink: "https://github.com/KiraCode/calculator-level-2",
-      gitIcon: github,
-      liveIcon: live,
+      gitLink: "",
+      gitIcon: "",
+      liveIcon: "",
     },
     icons: [
       {
