@@ -20,13 +20,24 @@ import postman from "./technology/postman.svg";
 import github from "./technology/github.svg";
 import live from "./technology/live.png";
 
-// top projects images
-import Calculator from "./top-project/calculator.png";
-import TravelList from "./top-project/travel-list.png";
-import MusicPlayerLevel2 from "./top-project/music-player-2.png";
-import MusicPlayerLevel1 from "./top-project/music-player-1.png";
-import ImageCarousel1 from "./top-project/image-carousel-1.png";
-import ImageCarousel2 from "./top-project/image-carousel-2.png";
+// react projects images
+import TravelList from "./projects/travel-list.png";
+
+// Javascript projects images
+import Calculator from "./projects/calculator.png";
+import MusicPlayerLevel2 from "./projects/music-player-2.png";
+import MusicPlayerLevel1 from "./projects/music-player-1.png";
+import ImageCarousel1 from "./projects/image-carousel-1.png";
+import ImageCarousel2 from "./projects/image-carousel-2.png";
+
+// React assignment images
+import DigitalClock from "./projects/digital-clock.png";
+import VoteApp from "./projects/vote-app.png";
+import TaskManageApp from "./projects/task-manage-app.png";
+import RecipeFinder from "./projects/recipe-finder.png";
+import MoodTracker from "./projects/mood-tracker.png";
+import BookRelease from "./projects/book-release.png";
+import MovieSearch from "./projects/movie-search.png";
 
 export const profile = {
   portfolioLogo,
@@ -121,7 +132,7 @@ export const latestStack = [
     title: "Travel List",
     category: "React",
     description:
-      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+      "",
     image: TravelList,
     view: {
       liveLink: "https://kira-travel-list.netlify.app/",
@@ -386,7 +397,7 @@ export const projects = [
     category: "React Assignments",
     description:
       "A fully functional digital clock as a React component that dynamically updates in real-time to display the current time.",
-    image: Calculator,
+    image: DigitalClock,
     view: {
       liveLink: "https://assignment-react-digital-clock.netlify.app/",
       gitLink:
@@ -418,7 +429,7 @@ export const projects = [
     category: "React Assignments",
     description:
       "A React application that allows users to log their moods with optional notes and view their mood history.",
-    image: Calculator,
+    image: MoodTracker,
     view: {
       liveLink: "https://assignment-react-mood-tracker.netlify.app/",
       gitLink:
@@ -450,7 +461,7 @@ export const projects = [
     category: "React Assignments",
     description:
       "A React application that allows users to vote for their favorite fruit and dynamically displays the vote count for each option.",
-    image: Calculator,
+    image: VoteApp,
     view: {
       liveLink: "https://assignment-react-voting-application.netlify.app/",
       gitLink:
@@ -479,10 +490,10 @@ export const projects = [
   },
   {
     title: "RecipeFinder ",
-    category: "Reatct Assignments",
+    category: "React Assignments",
     description:
       "A React application that allows users to search for recipes based on ingredients and displays a list of relevant recipes retrieved from an external API.",
-    image: Calculator,
+    image: RecipeFinder,
     view: {
       liveLink: "https://assignment-react-recipe-finder.netlify.app/",
       gitLink:
@@ -514,7 +525,7 @@ export const projects = [
     category: "React Assignments",
     description:
       "A React-based Task Manager application that allows users to manage their tasks effectively by adding and deleting tasks.",
-    image: Calculator,
+    image: TaskManageApp,
     view: {
       liveLink: "https://assignment-react-task-manager-app.netlify.app/",
       gitLink:
@@ -546,7 +557,7 @@ export const projects = [
     category: "React Assignments",
     description:
       "A React-based mini-project to manage and display a list of upcoming book releases.You are tasked with creating a mini React application to manage a list of upcoming book releases. ",
-    image: Calculator,
+    image: BookRelease,
     view: {
       liveLink: "https://assignment-react-book-releases.netlify.app/",
       gitLink:
@@ -578,7 +589,7 @@ export const projects = [
     category: "React Assignments",
     description:
       "The Habit Tracker App is an application designed to help users monitor their daily habits and track their progress over a week. The app allows users to add new habits, mark their progress for each day, and visualize streaks of continuous completion with a fire icon.",
-    image: Calculator,
+    image: MovieSearch,
     view: {
       liveLink: "https://assignment-react-movie-search.netlify.app/",
       gitLink:
