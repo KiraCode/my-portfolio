@@ -1,5 +1,5 @@
 import React from "react";
-import { topProjects } from "../assets/asset";
+import { latestStack } from "../assets/asset";
 import Card from "./ui/Card";
 import { useNavigate } from "react-router-dom";
 import LineUI from "./ui/LineUI";
@@ -13,7 +13,7 @@ const TopProjects = () => {
       </h1>
       <p className="sm:w-1/3 text-center text-sm"></p>
       <div className="w-full grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 sm:px-0">
-        {topProjects.map((item, index) => (
+        {latestStack.map((item, index) => (
           <Card key={index} {...item} />
         ))}
       </div>

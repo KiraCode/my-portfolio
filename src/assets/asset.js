@@ -116,9 +116,10 @@ export const skillsData = [
   },
 ];
 
-export const topProjects = [
+export const latestStack = [
   {
     title: "Travel List",
+    category: "React",
     description:
       "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
     image: TravelList,
@@ -147,8 +148,53 @@ export const topProjects = [
       },
     ],
   },
+];
+export const projects = [
+  // MERN Stack Projects
+
+  // React Projects
+  {
+    title: "Travel List",
+    category: "React",
+    description:
+      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+    image: TravelList,
+    view: {
+      liveLink: "https://kira-travel-list.netlify.app/",
+      gitLink: "https://github.com/KiraCode/travel-list",
+      gitIcon: github,
+      liveIcon: live,
+    },
+    icons: [
+      {
+        name: "Html",
+        src: html,
+      },
+      {
+        name: "Css",
+        src: css,
+      },
+      {
+        name: "Javascript",
+        src: javascript,
+      },
+      {
+        name: "React",
+        src: react,
+      },
+    ],
+  },
+
+  // Java-Springboot Projects
+
+  // React-Springboot Projects
+
+  // NodeJs Projects
+
+  // Javascript Projects
   {
     title: "Music Player",
+    category: "Javascript",
     description:
       "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
     image: MusicPlayerLevel2,
@@ -175,6 +221,7 @@ export const topProjects = [
   },
   {
     title: "Simple Music Player",
+    category: "Javascript",
     description:
       "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
     image: MusicPlayerLevel1,
@@ -201,6 +248,7 @@ export const topProjects = [
   },
   {
     title: "Image Carousel ",
+    category: "Javascript",
     description:
       "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
     image: ImageCarousel2,
@@ -227,6 +275,7 @@ export const topProjects = [
   },
   {
     title: "Simple Image Carousel",
+    category: "Javascript",
     description:
       "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
     image: ImageCarousel1,
@@ -253,6 +302,7 @@ export const topProjects = [
   },
   {
     title: "Calculator",
+    category: "Javascript",
     description:
       "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
     image: Calculator,
@@ -277,6 +327,227 @@ export const topProjects = [
       },
     ],
   },
-];
 
-export const projects = [{}]
+  // HTML - css Assignments
+
+  // Javascript Assignments
+  {
+    title: "Calculator",
+    category: "Javascript-Assignments",
+    description:
+      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+    image: Calculator,
+    view: {
+      liveLink: "https://assignments-javascript-wsa.netlify.app/",
+      gitLink: "https://github.com/KiraCode/calculator-level-2",
+      gitIcon: github,
+      liveIcon: live,
+    },
+    icons: [
+      {
+        name: "Html",
+        src: html,
+      },
+      {
+        name: "Css",
+        src: css,
+      },
+      {
+        name: "Javascript",
+        src: javascript,
+      },
+    ],
+  },
+
+  // React Assignmenst
+  {
+    title: "Digital Clock",
+    category: "React Assignments",
+    description:
+      "A fully functional digital clock as a React component that dynamically updates in real-time to display the current time.",
+    image: Calculator,
+    view: {
+      liveLink: "https://assignment-react-digital-clock.netlify.app/",
+      gitLink: "https://github.com/KiraCode/wsa-react-assignments/tree/main/digital-clock",
+      gitIcon: github,
+      liveIcon: live,
+    },
+    icons: [
+      {
+        name: "Html",
+        src: html,
+      },
+      {
+        name: "Css",
+        src: css,
+      },
+      {
+        name: "Javascript",
+        src: javascript,
+      },
+    ],
+  },
+  {
+    title: "Calculator",
+    category: "React Assignments",
+    description:
+      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+    image: Calculator,
+    view: {
+      liveLink: "https://assignments-javascript-wsa.netlify.app/",
+      gitLink: "https://github.com/KiraCode/calculator-level-2",
+      gitIcon: github,
+      liveIcon: live,
+    },
+    icons: [
+      {
+        name: "Html",
+        src: html,
+      },
+      {
+        name: "Css",
+        src: css,
+      },
+      {
+        name: "Javascript",
+        src: javascript,
+      },
+    ],
+  },
+  {
+    title: "Calculator",
+    category: "Javascript-Assignments",
+    description:
+      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+    image: Calculator,
+    view: {
+      liveLink: "https://assignments-javascript-wsa.netlify.app/",
+      gitLink: "https://github.com/KiraCode/calculator-level-2",
+      gitIcon: github,
+      liveIcon: live,
+    },
+    icons: [
+      {
+        name: "Html",
+        src: html,
+      },
+      {
+        name: "Css",
+        src: css,
+      },
+      {
+        name: "Javascript",
+        src: javascript,
+      },
+    ],
+  },
+  {
+    title: "Calculator",
+    category: "Javascript-Assignments",
+    description:
+      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+    image: Calculator,
+    view: {
+      liveLink: "https://assignments-javascript-wsa.netlify.app/",
+      gitLink: "https://github.com/KiraCode/calculator-level-2",
+      gitIcon: github,
+      liveIcon: live,
+    },
+    icons: [
+      {
+        name: "Html",
+        src: html,
+      },
+      {
+        name: "Css",
+        src: css,
+      },
+      {
+        name: "Javascript",
+        src: javascript,
+      },
+    ],
+  },
+  {
+    title: "Calculator",
+    category: "Javascript-Assignments",
+    description:
+      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+    image: Calculator,
+    view: {
+      liveLink: "https://assignments-javascript-wsa.netlify.app/",
+      gitLink: "https://github.com/KiraCode/calculator-level-2",
+      gitIcon: github,
+      liveIcon: live,
+    },
+    icons: [
+      {
+        name: "Html",
+        src: html,
+      },
+      {
+        name: "Css",
+        src: css,
+      },
+      {
+        name: "Javascript",
+        src: javascript,
+      },
+    ],
+  },
+  {
+    title: "Calculator",
+    category: "Javascript-Assignments",
+    description:
+      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+    image: Calculator,
+    view: {
+      liveLink: "https://assignments-javascript-wsa.netlify.app/",
+      gitLink: "https://github.com/KiraCode/calculator-level-2",
+      gitIcon: github,
+      liveIcon: live,
+    },
+    icons: [
+      {
+        name: "Html",
+        src: html,
+      },
+      {
+        name: "Css",
+        src: css,
+      },
+      {
+        name: "Javascript",
+        src: javascript,
+      },
+    ],
+  },
+  {
+    title: "Calculator",
+    category: "Javascript-Assignments",
+    description:
+      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+    image: Calculator,
+    view: {
+      liveLink: "https://assignments-javascript-wsa.netlify.app/",
+      gitLink: "https://github.com/KiraCode/calculator-level-2",
+      gitIcon: github,
+      liveIcon: live,
+    },
+    icons: [
+      {
+        name: "Html",
+        src: html,
+      },
+      {
+        name: "Css",
+        src: css,
+      },
+      {
+        name: "Javascript",
+        src: javascript,
+      },
+    ],
+  },
+  
+];
