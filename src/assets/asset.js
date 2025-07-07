@@ -368,7 +368,8 @@ export const projects = [
     image: Calculator,
     view: {
       liveLink: "https://assignment-react-digital-clock.netlify.app/",
-      gitLink: "https://github.com/KiraCode/wsa-react-assignments/tree/main/digital-clock",
+      gitLink:
+        "https://github.com/KiraCode/wsa-react-assignments/tree/main/digital-clock",
       gitIcon: github,
       liveIcon: live,
     },
@@ -385,17 +386,22 @@ export const projects = [
         name: "Javascript",
         src: javascript,
       },
+      {
+        name: "React",
+        src: react,
+      },
     ],
   },
   {
-    title: "Calculator",
+    title: "MoodTracker",
     category: "React Assignments",
     description:
-      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+      "A React application that allows users to log their moods with optional notes and view their mood history.",
     image: Calculator,
     view: {
-      liveLink: "https://assignments-javascript-wsa.netlify.app/",
-      gitLink: "https://github.com/KiraCode/calculator-level-2",
+      liveLink: "https://assignment-react-mood-tracker.netlify.app/",
+      gitLink:
+        "https://github.com/KiraCode/wsa-react-assignments/tree/main/mood-tracker",
       gitIcon: github,
       liveIcon: live,
     },
@@ -411,18 +417,23 @@ export const projects = [
       {
         name: "Javascript",
         src: javascript,
+      },
+      {
+        name: "React",
+        src: react,
       },
     ],
   },
   {
-    title: "Calculator",
-    category: "Javascript-Assignments",
+    title: "Voting Application",
+    category: "React Assignments",
     description:
-      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+      "A React application that allows users to vote for their favorite fruit and dynamically displays the vote count for each option.",
     image: Calculator,
     view: {
-      liveLink: "https://assignments-javascript-wsa.netlify.app/",
-      gitLink: "https://github.com/KiraCode/calculator-level-2",
+      liveLink: "https://assignment-react-voting-application.netlify.app/",
+      gitLink:
+        "https://github.com/KiraCode/wsa-react-assignments/tree/main/voting-application",
       gitIcon: github,
       liveIcon: live,
     },
@@ -438,18 +449,23 @@ export const projects = [
       {
         name: "Javascript",
         src: javascript,
+      },
+      {
+        name: "React",
+        src: react,
       },
     ],
   },
   {
-    title: "Calculator",
-    category: "Javascript-Assignments",
+    title: "RecipeFinder ",
+    category: "Reatct Assignments",
     description:
-      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+      "A React application that allows users to search for recipes based on ingredients and displays a list of relevant recipes retrieved from an external API.",
     image: Calculator,
     view: {
-      liveLink: "https://assignments-javascript-wsa.netlify.app/",
-      gitLink: "https://github.com/KiraCode/calculator-level-2",
+      liveLink: "https://assignment-react-recipe-finder.netlify.app/",
+      gitLink:
+        "https://github.com/KiraCode/wsa-react-assignments/tree/main/recipe-finder",
       gitIcon: github,
       liveIcon: live,
     },
@@ -465,18 +481,23 @@ export const projects = [
       {
         name: "Javascript",
         src: javascript,
+      },
+      {
+        name: "React",
+        src: react,
       },
     ],
   },
   {
-    title: "Calculator",
-    category: "Javascript-Assignments",
+    title: "TaskManager ",
+    category: "React Assignments",
     description:
-      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+      "A React-based Task Manager application that allows users to manage their tasks effectively by adding and deleting tasks.",
     image: Calculator,
     view: {
-      liveLink: "https://assignments-javascript-wsa.netlify.app/",
-      gitLink: "https://github.com/KiraCode/calculator-level-2",
+      liveLink: "https://assignment-react-task-manager-app.netlify.app/",
+      gitLink:
+        "https://github.com/KiraCode/wsa-react-assignments/tree/main/task-manager-application",
       gitIcon: github,
       liveIcon: live,
     },
@@ -492,18 +513,23 @@ export const projects = [
       {
         name: "Javascript",
         src: javascript,
+      },
+      {
+        name: "React",
+        src: react,
       },
     ],
   },
   {
-    title: "Calculator",
-    category: "Javascript-Assignments",
+    title: "Book Releases Application",
+    category: "React Assignments",
     description:
-      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+      "A React-based mini-project to manage and display a list of upcoming book releases.You are tasked with creating a mini React application to manage a list of upcoming book releases. ",
     image: Calculator,
     view: {
-      liveLink: "https://assignments-javascript-wsa.netlify.app/",
-      gitLink: "https://github.com/KiraCode/calculator-level-2",
+      liveLink: "https://assignment-react-book-releases.netlify.app/",
+      gitLink:
+        "https://github.com/KiraCode/wsa-react-assignments/tree/main/book-releases",
       gitIcon: github,
       liveIcon: live,
     },
@@ -519,18 +545,23 @@ export const projects = [
       {
         name: "Javascript",
         src: javascript,
+      },
+      {
+        name: "React",
+        src: react,
       },
     ],
   },
   {
-    title: "Calculator",
-    category: "Javascript-Assignments",
+    title: "MovieSearch Application",
+    category: "React Assignments",
     description:
-      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
+      "The Habit Tracker App is an application designed to help users monitor their daily habits and track their progress over a week. The app allows users to add new habits, mark their progress for each day, and visualize streaks of continuous completion with a fire icon.",
     image: Calculator,
     view: {
-      liveLink: "https://assignments-javascript-wsa.netlify.app/",
-      gitLink: "https://github.com/KiraCode/calculator-level-2",
+      liveLink: "https://assignment-react-movie-search.netlify.app/",
+      gitLink:
+        "https://github.com/KiraCode/wsa-react-assignments/tree/main/movie-search",
       gitIcon: github,
       liveIcon: live,
     },
@@ -547,7 +578,10 @@ export const projects = [
         name: "Javascript",
         src: javascript,
       },
+      {
+        name: "React",
+        src: react,
+      },
     ],
   },
-  
 ];
