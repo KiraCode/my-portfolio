@@ -110,7 +110,7 @@ const Projects = () => {
           <p
             onClick={() => applyFilter("HTML-CSS-Assignments")}
             className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
-              projectCategory === "HTML-CSS Assignments"
+              projectCategory === "HTML-CSS-Assignments"
                 ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
                 : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
             }`}
@@ -121,7 +121,7 @@ const Projects = () => {
           <p
             onClick={() => applyFilter("Javascript-Assignments")}
             className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
-              projectCategory === "Javascript Assignments"
+              projectCategory === "Javascript-Assignments"
                 ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
                 : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
             }`}
@@ -132,7 +132,7 @@ const Projects = () => {
           <p
             onClick={() => applyFilter("React Assignments")}
             className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
-              projectCategory === "React-Assignments"
+              projectCategory === "React Assignments"
                 ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
                 : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
             }`}
