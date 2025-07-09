@@ -1,5 +1,7 @@
 import portfolioLogo from "./logo/portfolio-logo.png";
 import profilePic from "./logo/profile-pic.png";
+import MenuIcon from "./logo/menu-icon.svg";
+import CloseIcon from "./logo/cross_icon.png";
 import expImgWhite from "./experience/expImgWhite.svg";
 import expImgBlack from "./experience/expBlack.svg";
 
@@ -43,6 +45,8 @@ import MovieSearch from "./projects/movie-search.png";
 export const profile = {
   portfolioLogo,
   profilePic,
+  MenuIcon,
+  CloseIcon,
 };
 
 export const exp = {
@@ -163,7 +167,7 @@ export const projects = [
       },
     ],
   },
-   {
+  {
     title: "Pizza Menu",
     category: "React",
     description:
