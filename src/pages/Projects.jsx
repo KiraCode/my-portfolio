@@ -1,28 +1,26 @@
 import React, { useEffect, useState } from "react";
 import Card from "../components/ui/Card";
-import { projects, latestStack } from "../assets/asset.js";
+import { projects } from "../assets/asset.js";
 import LineUI from "../components/ui/LineUI";
 
 const Projects = () => {
   const [filterProjects, setFilterProjects] = useState([]);
   const [projectCategory, setProjectCategory] = useState("");
 
-  const applyFilter = (category) => {
+  const applyFilter = (category="") => {
     setProjectCategory(category);
     if (category) {
       setFilterProjects(
         projects.filter((project) => project.category === category)
       );
     } else {
-      setFilterProjects(latestStack);
+      setFilterProjects(projects.slice(0, 6));
     }
   };
 
-  console.log(filterProjects);
-
   useEffect(() => {
     applyFilter();
-  }, [projects, latestStack]);
+  }, [projects]);
   return (
     <div>
       <div className="flex justify-end w-full sm:pr-6 mb-4">
