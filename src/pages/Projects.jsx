@@ -24,13 +24,16 @@ const Projects = () => {
   }, [projects]);
   return (
     <div>
+      <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-purple-500 to-gray-300 bg-clip-text text-transparent pb-5 mb-12">
+        Projects
+      </h1>
       <div className="flex justify-end w-full sm:pr-6 mb-4">
         <div className="w-full flex justify-between flex-wrap gap-4 mb-6 px-2 sm:px-4">
           <h2 className="mt-4 text-lg sm:text-xl font-semibold text-gray-200">
             Browse Through Projects
           </h2>
           <h1 className="text-center text-4xl md:text-4xl md:text-end lg:text-5xl font-semibold bg-gradient-to-r from-purple-500 to-gray-300 bg-clip-text text-transparent leading-tight md:leading-tight lg:leading-tight">
-            Projects
+            {`${projectCategory===""?"Latest":projectCategory.replaceAll("-", " ")} `} {`${projectCategory.includes("Assignments") ? "" : "Projects"}`}
           </h1>
         </div>
       </div>
@@ -45,7 +48,11 @@ const Projects = () => {
         >
           Filters
         </button>
-        <div className={`flex-col gap-2 text-sm text-gray-200 mt-2 ${showFilter ? "flex" : "hidden sm:flex"}`}>
+        <div
+          className={`flex-col gap-2 text-sm text-gray-200 mt-2 ${
+            showFilter ? "flex" : "hidden sm:flex"
+          }`}
+        >
           <p
             onClick={() => applyFilter("")}
             className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
@@ -158,4 +165,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;  
+export default Projects;
