@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const   Card = ({ title, description, image, view, icons, category }) => {
+const Card = ({ title, description, image, view, icons, category }) => {
   const [expanded, setExpanded] = useState(false);
   const maxChars = 50;
   const isLong = description.length > maxChars;
