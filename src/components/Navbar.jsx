@@ -36,7 +36,7 @@ const Navbar = () => {
           <hr className="border-none outline-none h-0.5 bg-purple-500 w-3/5 m-auto hidden" />
         </NavLink>
       </ul>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-4">
         <a
           href="https://github.com/KiraCode"
           target="_blank"
