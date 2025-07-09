@@ -22,6 +22,7 @@ import live from "./technology/live.png";
 
 // react projects images
 import TravelList from "./projects/travel-list.png";
+import PizzaMenu from "./projects/Pizza-menu.png";
 
 // Javascript projects images
 import Calculator from "./projects/calculator.png";
@@ -127,12 +128,15 @@ export const skillsData = [
   },
 ];
 
-export const latestStack = [
+export const projects = [
+  // MERN Stack Projects
+
+  // React Projects
   {
     title: "Travel List",
     category: "React",
     description:
-      "",
+      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
     image: TravelList,
     view: {
       liveLink: "https://kira-travel-list.netlify.app/",
@@ -159,20 +163,15 @@ export const latestStack = [
       },
     ],
   },
-];
-export const projects = [
-  // MERN Stack Projects
-
-  // React Projects
-  {
-    title: "Travel List",
+   {
+    title: "Pizza Menu",
     category: "React",
     description:
-      "Create a Web page to display the name of six cities with different headings. Write minimum five sentences for each city. Refer the following image.",
-    image: TravelList,
+      "React-based Pizza Menu application that dynamically displays a list of available pizzas along with their details such as name, ingredients, price",
+    image: PizzaMenu,
     view: {
-      liveLink: "https://kira-travel-list.netlify.app/",
-      gitLink: "https://github.com/KiraCode/travel-list",
+      liveLink: "https://kiracode-pizza-menu.netlify.app/",
+      gitLink: "https://github.com/KiraCode/pizza-menu",
       gitIcon: github,
       liveIcon: live,
     },

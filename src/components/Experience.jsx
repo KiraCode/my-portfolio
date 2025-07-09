@@ -1,4 +1,3 @@
-import React, { useContext } from "react";
 import ExperienceCard from "./ui/Experiencecard";
 import { exp, experienceData } from "../assets/asset.js";
 import LineUI from "./ui/LineUI.jsx";
@@ -8,7 +7,7 @@ const Experience = () => {
     <>
       <section
         id="experience"
-        className=" flex flex-col md:flex-row items-center justify-center px-6 md:px-10 lg:px-20"
+        className="mt-20 flex flex-col md:flex-row items-center justify-center px-6 md:px-10 lg:px-20"
       >
         {/* ——— left (illustration) ——— */}
         <div className="hidden md:flex w-1/3 lg:w-2/5 justify-center">
