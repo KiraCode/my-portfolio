@@ -5,19 +5,23 @@ const Card = ({ title, description, image, view, icons, category }) => {
   const maxChars = 50;
   const isLong = description.length > maxChars;
   const preview = description.slice(0, maxChars);
-
+  const [isLoading, setIsLoading] = useState(true);
   return (
     <>
       {category.includes("-Assignments") ? (
-        <div
-          className="w-full col-span-full"
-          style={{ height: "600px" }}
-        >
+        <div className="w-full col-span-full" style={{ height: "600px" }}>
+          {/* Loader */}
+          {isLoading && (
+            <div className="absolute inset-0 flex items-center justify-center bg-gray-800 text-white z-10">
+              <span className="text-lg animate-pulse">Loading...</span>
+            </div>
+          )}
           <iframe
             src={view.liveLink}
             title={title}
             className="w-full h-full"
             style={{ border: "none" }}
+            onLoad={() => setIsLoading(false)}
           ></iframe>
         </div>
       ) : (

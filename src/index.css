@@ -70,3 +70,9 @@
     transform: translateX(-50%);
   }
 }
+
+@media (max-width:740px) {
+  .active p{
+    @apply text-white bg-purple-400 p-2
+  }
+}

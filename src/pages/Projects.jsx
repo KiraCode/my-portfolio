@@ -6,8 +6,9 @@ import LineUI from "../components/ui/LineUI";
 const Projects = () => {
   const [filterProjects, setFilterProjects] = useState([]);
   const [projectCategory, setProjectCategory] = useState("");
+  const [showFilter, setShowFilter] = useState(false);
 
-  const applyFilter = (category="") => {
+  const applyFilter = (category = "") => {
     setProjectCategory(category);
     if (category) {
       setFilterProjects(
@@ -34,10 +35,20 @@ const Projects = () => {
         </div>
       </div>
       <div className="flex flex-col sm:flex-row items-start gap-5 mt-5">
-        <div className="flex flex-col gap-2 text-sm text-gray-200 mt-2">
+        <button
+          className={`py-1 px-3border rounded text-sm transition-all sm:hidden ${
+            showFilter
+              ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
+              : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
+          }`}
+          onClick={() => setShowFilter((prev) => !prev)}
+        >
+          Filters
+        </button>
+        <div className={`flex-col gap-2 text-sm text-gray-200 mt-2 ${showFilter ? "flex" : "hidden sm:flex"}`}>
           <p
             onClick={() => applyFilter("")}
-            className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
+            className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === ""
                 ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
                 : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
@@ -47,7 +58,7 @@ const Projects = () => {
           </p>
           <p
             onClick={() => applyFilter("MERN Stack")}
-            className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
+            className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === "MERN Stack"
                 ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
                 : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
@@ -57,7 +68,7 @@ const Projects = () => {
           </p>
           <p
             onClick={() => applyFilter("React")}
-            className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
+            className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === "React"
                 ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
                 : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
@@ -67,7 +78,7 @@ const Projects = () => {
           </p>
           <p
             onClick={() => applyFilter("Java-Springboot")}
-            className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
+            className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === "Java-Springboot"
                 ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
                 : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
@@ -77,7 +88,7 @@ const Projects = () => {
           </p>
           <p
             onClick={() => applyFilter("React-Springboot")}
-            className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
+            className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === "React-Springboot"
                 ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
                 : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
@@ -87,7 +98,7 @@ const Projects = () => {
           </p>
           <p
             onClick={() => applyFilter("NodeJs")}
-            className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
+            className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === "NodeJs"
                 ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
                 : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
@@ -97,7 +108,7 @@ const Projects = () => {
           </p>
           <p
             onClick={() => applyFilter("Javascript")}
-            className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
+            className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === "Javascript"
                 ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
                 : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
@@ -107,7 +118,7 @@ const Projects = () => {
           </p>
           <p
             onClick={() => applyFilter("HTML-CSS-Assignments")}
-            className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
+            className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === "HTML-CSS-Assignments"
                 ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
                 : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
@@ -115,10 +126,9 @@ const Projects = () => {
           >
             HTML-CSS Assignments
           </p>
-
           <p
             onClick={() => applyFilter("Javascript-Assignments")}
-            className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
+            className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === "Javascript-Assignments"
                 ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
                 : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
@@ -126,10 +136,9 @@ const Projects = () => {
           >
             Javascript Assignments
           </p>
-
           <p
             onClick={() => applyFilter("React Assignments")}
-            className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
+            className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === "React Assignments"
                 ? "bg-purple-600 text-white border-purple-600 ring-2 ring-purple-400"
                 : "bg-gray-900 text-gray-200 border-gray-400 hover:bg-gray-800 active:bg-gray-700"
@@ -149,4 +158,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Projects;  
