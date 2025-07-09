@@ -24,7 +24,7 @@ import live from "./technology/live.png";
 
 // react projects images
 import TravelList from "./projects/travel-list.png";
-import PizzaMenu from "./projects/Pizza-menu.png";
+import PizzaMenu from "./projects/pizza-menu.png";
 
 // Javascript projects images
 import Calculator from "./projects/calculator.png";
