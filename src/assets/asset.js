@@ -25,6 +25,7 @@ import live from "./technology/live.png";
 // react projects images
 import TravelList from "./projects/travel-list.png";
 import PizzaMenu from "./projects/pizza-menu.png";
+import Usepopcorn from "./projects/usepopcorn.png";
 
 // Javascript projects images
 import Calculator from "./projects/calculator.png";
@@ -136,6 +137,37 @@ export const projects = [
   // MERN Stack Projects
 
   // React Projects
+  {
+    title: "UsePopcorn",
+    category: "React",
+    description:
+      "A React app to search movies, view details, rate them, and add to a personalized watchlist with a responsive user-friendly interface.",
+    image: Usepopcorn,
+    view: {
+      liveLink: "https://kiracode-usepopcorn.netlify.app/",
+      gitLink: "https://github.com/KiraCode/usepopcorn",
+      gitIcon: github,
+      liveIcon: live,
+    },
+    icons: [
+      {
+        name: "Html",
+        src: html,
+      },
+      {
+        name: "Css",
+        src: css,
+      },
+      {
+        name: "Javascript",
+        src: javascript,
+      },
+      {
+        name: "React",
+        src: react,
+      },
+    ],
+  },
   {
     title: "Travel List",
     category: "React",
