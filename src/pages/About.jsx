@@ -80,11 +80,11 @@ const About = () => {
         </h2>{" "}
         <div className="h-1 w-full bg-gradient-to-r from-white to-purple-400 my-6 rounded" />
         <ul className="list-none text-lg list-inside text-gray-200 space-y-2">
-          <li>
+          {/* <li>
             <strong className="text-purple-300">Note App (MERN):</strong> Built a full-stack notes
             application with user authentication, CRUD features, JWT security,
             and MongoDB storage.
-          </li>
+          </li> */}
           <li>
             <strong className="text-purple-300">Smart Water Meter Dashboard:</strong> Developed a
             Vaadin-based dashboard for monitoring smart meter data from the
