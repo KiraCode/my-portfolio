@@ -53,6 +53,7 @@ const Projects = () => {
             showFilter ? "flex" : "hidden sm:flex"
           }`}
         >
+          {/* lastest projects */}
           <p
             onClick={() => applyFilter("")}
             className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
@@ -63,7 +64,8 @@ const Projects = () => {
           >
             Latest Projects
           </p>
-          <p
+          {/* MERN Stack Projects */}
+          {/* <p
             onClick={() => applyFilter("MERN Stack")}
             className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === "MERN Stack"
@@ -72,7 +74,8 @@ const Projects = () => {
             }`}
           >
             MERN Stack Projects
-          </p>
+          </p> */}
+          {/*  React Projects */}
           <p
             onClick={() => applyFilter("React")}
             className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
@@ -83,7 +86,8 @@ const Projects = () => {
           >
             React Projects
           </p>
-          <p
+          {/* Java Springboot Projects */}
+          {/* <p
             onClick={() => applyFilter("Java-Springboot")}
             className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === "Java-Springboot"
@@ -92,8 +96,9 @@ const Projects = () => {
             }`}
           >
             Java Springboot Projects
-          </p>
-          <p
+          </p> */}
+          {/* React Springboot Projects */}
+          {/* <p
             onClick={() => applyFilter("React-Springboot")}
             className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === "React-Springboot"
@@ -102,8 +107,9 @@ const Projects = () => {
             }`}
           >
             React Springboot Projects
-          </p>
-          <p
+          </p> */}
+          {/* NodeJs Projects */}
+          {/* <p
             onClick={() => applyFilter("NodeJs")}
             className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
               projectCategory === "NodeJs"
@@ -112,7 +118,8 @@ const Projects = () => {
             }`}
           >
             NodeJs Projects
-          </p>
+          </p> */}
+          {/* JavaScript Projects */}
           <p
             onClick={() => applyFilter("Javascript")}
             className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
@@ -123,6 +130,7 @@ const Projects = () => {
           >
             JavaScript Projects
           </p>
+          {/* HTML-CSS Assignments */}
           <p
             onClick={() => applyFilter("HTML-CSS-Assignments")}
             className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
@@ -133,6 +141,7 @@ const Projects = () => {
           >
             HTML-CSS Assignments
           </p>
+          {/* Javascript Assignments */}
           <p
             onClick={() => applyFilter("Javascript-Assignments")}
             className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
@@ -143,6 +152,7 @@ const Projects = () => {
           >
             Javascript Assignments
           </p>
+          {/* React Assignments */}
           <p
             onClick={() => applyFilter("React Assignments")}
             className={`w-[94vw] sm:w-auto max-w-xs pl-3 py-1.5 pr-16 border border-gray-50 rounded transition-all cursor-pointer whitespace-nowrap ${
