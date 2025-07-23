@@ -30,7 +30,9 @@ const Header = () => {
             </p>
           </div>
           <a
-            href=""
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 rounded-full border-2 border-purple-400 text-white text-sm font-semibold m-auto md:m-0 hover:scale-105 transition-all duration-300 hover:border-4 "
           >
             DOWNLOAD CV <IoMdDownload className="w-6 mt-1" />

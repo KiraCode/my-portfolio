@@ -26,6 +26,8 @@ import live from "./technology/live.png";
 import TravelList from "./projects/travel-list.png";
 import PizzaMenu from "./projects/pizza-menu.png";
 import Usepopcorn from "./projects/usepopcorn.png";
+import Weather from "./projects/weather.png";
+import WeatherForecast from "./projects/weather-forecast.png";
 
 // Javascript projects images
 import Calculator from "./projects/calculator.png";
@@ -137,6 +139,68 @@ export const projects = [
   // MERN Stack Projects
 
   // React Projects
+   {
+    title: "Weather Forecast",
+    category: "React",
+    description:
+      "Advanced weather app showing hourly and 7-day forecasts with interactive 24-hour temperature graph using real-time weather API data",
+    image: WeatherForecast,
+    view: {
+      liveLink: "https://wsa-weather-app-level-2.netlify.app/",
+      gitLink: "https://github.com/KiraCode",
+      gitIcon: github,
+      liveIcon: live,
+    },
+    icons: [
+      {
+        name: "Html",
+        src: html,
+      },
+      {
+        name: "Css",
+        src: css,
+      },
+      {
+        name: "Javascript",
+        src: javascript,
+      },
+      {
+        name: "React",
+        src: react,
+      },
+    ],
+  },
+  {
+    title: "Weather App",
+    category: "React",
+    description:
+      "Weather app with city search, displaying current conditions and detailed 7-day forecast using real-time API data and responsive UI.",
+    image: Weather,
+    view: {
+      liveLink: "https://wsa-weather-app-level-1.netlify.app/",
+      gitLink: "https://github.com/KiraCode",
+      gitIcon: github,
+      liveIcon: live,
+    },
+    icons: [
+      {
+        name: "Html",
+        src: html,
+      },
+      {
+        name: "Css",
+        src: css,
+      },
+      {
+        name: "Javascript",
+        src: javascript,
+      },
+      {
+        name: "React",
+        src: react,
+      },
+    ],
+  },
   {
     title: "UsePopcorn",
     category: "React",
