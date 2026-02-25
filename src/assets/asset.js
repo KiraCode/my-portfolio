@@ -64,6 +64,7 @@ export const experienceData = [
     jobtitle: "Software Engineer Developer",
     startYear: "2025",
     endYear: "2026",
+  },
   {
     id: 2,
     company: "Wissen Infotech",
