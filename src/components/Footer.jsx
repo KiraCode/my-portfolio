@@ -55,7 +55,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="https://www.linkedin.com/in/tejas-p-2349101a7"
+                href="https://www.linkedin.com/in/tejasp98"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
@@ -87,7 +87,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="https://www.instagram.com/animemojoo"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
