@@ -61,7 +61,7 @@ export const experienceData = [
   {
     id:1,
     company: "Advaya Softech Pvt Ltd",
-    jobtitle: "Software Engineer Developer",
+    jobtitle: "Software Engineer",
     startYear: "2025",
     endYear: "2026",
   },
